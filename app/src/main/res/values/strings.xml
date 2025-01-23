@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">IPC</string>
+    <string name="title_activity_intro">Intro</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tncs_content">
+        <![CDATA[
+            <h1>Welcome to Linguina!</h1>
+
+            <h2>1. Acceptance of Terms</h2>
+            By using Linguina, you agree to be bound by these Terms, our Privacy Policy, and any other guidelines or rules applicable to specific features or services that may be posted from time to time.
+
+            <h2>2. Use of the App</h2>
+            <h3>2.1 User Conduct:</h3> You agree not to use the app for any unlawful purpose or in any way that could violate these Terms.
+            <h3>2.2 Hand Gesture Data:</h3> The app uses deep learning models to predict hand gestures. By using the app, you grant Linguina the right to collect, process, and use hand gesture data for the purpose of improving and optimizing the app.
+
+            <h2>3. Privacy</h2>
+            Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and disclose information about you.
+
+            <h2>4. Intellectual Property</h2>
+            <h3>4.1 Ownership:</h3> Linguina owns all rights, title, and interest in and to the app, including all intellectual property rights.
+            <h3>4.2 License:</h3> Linguina grants you a limited, non-exclusive, non-transferable, revocable license to use the app for your personal, non-commercial use.
+
+            <h2>5. Disclaimer of Warranties</h2>
+            The app is provided "as is" without warranties of any kind. Linguina disclaims all warranties, express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+            <h2>6. Limitation of Liability</h2>
+            In no event shall Linguina be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with the use of the app.
+
+            <h2>7. Changes to Terms</h2>
+            Linguina reserves the right to modify these Terms at any time. Your continued use of the app after the posting of any changes constitutes acceptance of those changes.
+
+            <h2>8. Governing Law</h2>
+            These Terms are governed by and construed in accordance with the laws of Pakistan, without regard to its conflict of law principles.
+
+            <p>Thank you for being a part of Linguina family!</p>
+        ]]>
+    </string>
+</resources>

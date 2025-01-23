@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#59C2C2C2"
+    tools:context=".ContactUs">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratblack"
+        android:text="LINGUINA"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="95dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center"
+        android:src="@drawable/linlog2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratblack"
+        android:text="Contact Info"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <Button
+        android:id="@+id/azfarInfo"
+        android:layout_width="141dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="448dp"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/montserrategular"
+        android:text="Azfar Nasir"
+        android:onClick="toggleAnswerVisibility1"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Info1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrategular"
+        android:text="Email:\n191080@students.au.\nedu.pk\n\nPhone:\n+(92) 336 5556 443"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toEndOf="@+id/azfarInfo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <Button
+        android:id="@+id/umairInfo"
+        android:layout_width="141dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/montserrategular"
+        android:text="Umair Ahmed"
+        android:onClick="toggleAnswerVisibility2"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrategular"
+        android:text="Email:\n191092@students.au.\nedu.pk\n\nPhone:\n+(92) 345 8965 373"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/azfarInfo"
+        app:layout_constraintTop_toBottomOf="@+id/Info1"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <Button
+        android:id="@+id/osamaInfo"
+        android:layout_width="141dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/montserrategular"
+        android:text="Osama Waheed"
+        android:onClick="toggleAnswerVisibility3"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/umairInfo" />
+
+    <TextView
+        android:id="@+id/Info3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrategular"
+        android:text="Email:\n191095@students.au.\nedu.pk\n\nPhone:\n+(92) 334 5722 285"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/osamaInfo"
+        app:layout_constraintTop_toBottomOf="@+id/Info2"
+        app:layout_constraintVertical_bias="0.416" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

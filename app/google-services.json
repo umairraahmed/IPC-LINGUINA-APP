@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "223727124154",
+    "project_id": "ipc-auth",
+    "storage_bucket": "ipc-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223727124154:android:ceed41cb405bece1658c83",
+        "android_client_info": {
+          "package_name": "com.example.ipc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223727124154-vlct6s0iqin36vd8cthi1ne8p63virpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaCyLjo9R3hL9lMPDDfqzuEDHKNDQIHds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223727124154-vlct6s0iqin36vd8cthi1ne8p63virpg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

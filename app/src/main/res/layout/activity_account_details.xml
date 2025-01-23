@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#59C2C2C2"
+    tools:context=".AccountDetails">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:fontFamily="@font/montserratblack"
+        android:text="LINGUINA"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="95dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center"
+        android:src="@drawable/linlog2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+
+    <TextView
+        android:id="@+id/titleaccount"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:background="@drawable/round_corner"
+        android:backgroundTint="#FECB20"
+        android:fontFamily="@font/montserrategular"
+        android:gravity="center"
+        android:text="Profile"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <TextView
+        android:id="@+id/nameAC"
+        android:layout_width="308dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/montserrategular"
+        android:inputType="text"
+        android:gravity="center"
+        android:background="@drawable/round_corner"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleaccount" />
+
+
+    <TextView
+        android:id="@+id/EmailAC"
+        android:layout_width="308dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/montserrategular"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameAC" />
+
+    <TextView
+        android:id="@+id/numberAC"
+        android:layout_width="308dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/montserrategular"
+        android:gravity="center"
+        android:inputType=""
+        android:text="Number"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EmailAC" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/montserratbold"
+        android:text="Log out"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
